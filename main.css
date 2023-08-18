@@ -1,0 +1,35 @@
+/* Barra de navegação */
+.bg-personalized {
+    background-color: #024a9bd5;
+}
+
+/* Personagens */
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+
+/* Cards */
+.card {
+    margin-bottom: 15px;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    background-color: #024a9bd5;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

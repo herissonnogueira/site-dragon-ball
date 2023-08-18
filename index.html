@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <!-- Icon -->
+    <link rel="Icon" href="./imagens/icon.png">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg bg-personalized navbar-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">D R A G O N B A L L</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active"  href="#inicio">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#personagens">Personagens</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="inicio" class="container">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagens/1.png" class="d-block w-100 carousel-img" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/2.jpg" class="d-block w-100 carousel-img" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/3.jpg" class="d-block w-100 carousel-img" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+    <!-- Grid de personagens -->
+    <h2 id="personagens">Personagens</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/goku.jpg" class="card-img-top" alt="Personagem Goku">
+                    <div class="card-body">
+                        <h5 class="card-title">Goku</h5>
+                        <p class="card-text">Você não é tão bom assim, é um fracassado.</p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/vegeta.jpg" class="card-img-top" alt="Personagem Vegeta">
+                    <div class="card-body">
+                        <h5 class="card-title">Vegeta</h5>
+                        <p class="card-text">O miserável é um gênio. É mais de oito mil! </p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/gohan.jpeg" class="card-img-top" alt="Personagem Vegeta">
+                    <div class="card-body">
+                        <h5 class="card-title">Gohan</h5>
+                        <p class="card-text">Não é bom machucar outras pessoas.</p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/freeza.jpg" class="card-img-top" alt="Personagem Freeza">
+                    <div class="card-body">
+                        <h5 class="card-title">Freeza</h5>
+                        <p class="card-text">Não suporto que riam de mim.</p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/cell.jpg" class="card-img-top" alt="Personagem Cell">
+                    <div class="card-body">
+                        <h5 class="card-title">Cell</h5>
+                        <p class="card-text">Com a minha mente vou a mil lugares.</p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="card">
+                    <img src="./imagens/majinboo.jpg" class="card-img-top" alt="Personagem Majin Boo">
+                    <div class="card-body">
+                        <h5 class="card-title">Majin Boo</h5>
+                        <p class="card-text">Quero superar a mim mesmo.</p>
+                        <a href="#" class="btn btn-primary">Conhecer Personagem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Rodapé -->
+    <footer>
+        &copy;<a href="https://www.linkedin.com/in/herissonnogueira/" target="_blank">Herisson Nogueira</a>
+    </footer>
+    
+    <!-- Bootstrap -->
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
